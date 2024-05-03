@@ -197,15 +197,9 @@ class ViewController: VisitVideoCallDelegate {
     @objc func buttonTapped(sender : UIButton) {
         // since both UIs share same view the button needs to be hidden, in actual app this can be ignored
         self.hideButton()
-        let external_api_base_url = "--external_api_base_url--"
-        let external_api_base_url_auth_token = "--external_api_base_url_auth_token--"
-        
         
         // OPTIONAL : syncing is enabled by default but it can be toggled using this method
         visitHealthView.setSyncingEnabled(true)
-        
-        // passing tataAIG_base_url and tataAIG_auth_token in form of a dictionary
-        visitHealthView.initialParams(["tataAIG_base_url":external_api_base_url, "tataAIG_auth_token":external_api_base_url_auth_token]);
         
         // modal implementation
         self.present(vc, animated: true)
