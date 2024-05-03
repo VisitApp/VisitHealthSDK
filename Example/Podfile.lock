@@ -1,0 +1,23 @@
+PODS:
+  - TwilioVideo (4.6.3)
+  - VisitHealthSDK (0.0.1):
+    - TwilioVideo (~> 4.4)
+
+DEPENDENCIES:
+  - VisitHealthSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TwilioVideo
+
+EXTERNAL SOURCES:
+  VisitHealthSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TwilioVideo: 4afaac028c5886f2f3b313a9fcc146a6b7ca34e2
+  VisitHealthSDK: 6eb107b7b8e97a614ccfdc0f81071344fe7ff9e1
+
+PODFILE CHECKSUM: af448813c472af776fa867f7d94056906d746c73
+
+COCOAPODS: 1.15.2
